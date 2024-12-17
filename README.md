@@ -1,17 +1,17 @@
 # PruebaPrimera
 Este proyecto en Java implementa un sistema de gestión de vehículos que incluye diferentes tipos de vehículos, como Coche y Camion. Cada vehículo hereda de una clase base llamada Vehículo y también implementa una interfaz Conducible, que define las acciones comunes que un vehículo puede realizar.
 
-## 1. Clase Vehiculo
-Este es un proyecto Java que define la clase abstracta Vehiculo.
+## 1. Clase Producto
+Este es un proyecto Java que define la clase Producto.
 
 ### 1.1. Descripción
-La clase Vehiculo representa un vehículo genérico y se utiliza como clase base para los diferentes vehículos. La clase tiene un atributo para conocer el número de ruedas de cada vehículo. Esta clase no tiene funcionalidades ya que estas son definidas en la interfaz. 
+La clase Producto representa un producto de un almacén. Tiene como parámetros el id, un identificador único; el nombre, que representa el nombre del producto; la categoría, que representa la categoría de un producto; el precio y el stock, que representa la cantidad que hay de ese producto.
 
 ### 1.2. Uso
-Para utilizar la clase Vehiculo, se tiene que crear una clase hija que extienda de Vehiculo para poder llamar al getNumRuedas() o usar el constructor.
+Para utilizar la clase Producto, se tiene que crear instancia de un producto.
 
 ### 1.3. Historia
-•	Version 0.1 (2024-12-10) - lanzamiento inicial
+•	Version 0.1 (2024-12-17) - lanzamiento inicial
 
 ## 2. Clase Conducible 
 Este es un proyecto Java que define la interfaz Conducible.
